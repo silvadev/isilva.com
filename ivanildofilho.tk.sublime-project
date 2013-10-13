@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/aison/Devel/sites/estatico/ivanildofilho.tk"
+		}
+	],
+	"settings": {
+        "sublime-view-in-browser": {
+            "baseUrl": "http://ivanildofilho.ai",
+            "basePath": "/home/aison/Devel/sites/estatico/ivanildofilho.tk"
+        }
+    }
+}

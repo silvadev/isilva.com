@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Ubuntu+Mono|Lusitana);
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+	font-family: "Droid Sans", "Arial", sans-serif;
+	background: url('/static/img/background.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+    position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -203px;
+	margin-top: -173.5px;
+}
+
+#head {
+	margin-bottom: 20px;
+}
+
+#content {
+	background-color: #f44800;
+	padding: 20px;
+	padding-top: 10px;
+	border-radius: 5px;
+	-webkit-box-shadow:  0px 0px 5px 5px #fff;
+    box-shadow:  0px 0px 10px 3px #555;
+}
+
+aside.logo {
+	font-family: "Ubuntu Mono", monospace;
+	/* height: 70px;
+	 * color: white;
+	 * border: 5px solid white; 
+	 */
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	background-color: #f44800;
+	border: 1px white solid;
+}
+
+span.is {
+	border: 5px solid white;
+	font-size: 3em;
+	vertical-align: middle;
+	margin: 5px;
+	display: block;
+	width: 50px;
+	text-align: center;
+	float: left;
+}
+
+span.is-complete {
+	font-size: 2.8em;
+	vertical-align: middle;
+	/* display: block;
+	 * height: 50px;
+	 * margin-right: 5px;
+	 * font-weight: bold;
+	 * float: left;
+	 * margin-top: 10px;
+	 */
+}
+
+hr.separator {
+	background-color: white;
+	height: 5px;
+	border: 0px;
+}
+
+aside.message {
+	font-size: 3em;
+	/* color: white; */
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "Lusitana", serif;
+}
+
+aside.social {
+	vertical-align: middle;
+	text-align: center;
+}
+
+a.soc {
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	background: url('/static/img/social.jpg');
+	margin: 10px;
+	border: 1px solid white;
+	-webkit-border-radius: 32px;
+    border-radius: 32px;
+
+}
+
+a.facebook {
+	background-position: 192px -64px;
+}
+
+a.facebook:hover {
+	background-position: 192px 0px;
+}
+
+a.gplus {
+	background-position: 64px -64px;
+}
+
+a.gplus:hover {
+	background-position: 64px 0px;
+}
+
+a.twitter {
+	background-position: 128px -64px;
+}
+
+a.twitter:hover {
+	background-position: 128px 0px;
+}
+
+a.github {
+	background-position: 0px -64px;
+}
+
+a.github:hover {
+	background-position: 0px 0px;
+}
+
+footer {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 0.8em;
+	/* color: white; */
+}
+
+footer a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #eec73e; 
+}
